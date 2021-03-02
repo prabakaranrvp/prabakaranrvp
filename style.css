@@ -15,14 +15,14 @@ body {
 }
 
 h1 {
-  font-size: 4em;
+  font-size: 5em;
   font-weight: 600;
   color: rgba(255,255,255,0.9);
   margin-top: 0;
 }
 
 p {
-  font-size: 2.5em;
+  font-size: 3em;
   color: rgba(255,255,255,0.7);
 }
 
@@ -65,4 +65,19 @@ p {
 }
 .indie {
   font-family: 'Indie Flower', cursive;
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 10vw;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  p {
+    font-size: 1.75em;
+  }
 }
