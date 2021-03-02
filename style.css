@@ -1,0 +1,68 @@
+
+body {
+  background: rgba(0,0,0,0.8);
+  color: rgba(255,255,255,0.95);
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 5em;
+  font-weight: 600;
+  color: rgba(255,255,255,0.9);
+  margin-top: 0;
+}
+
+p {
+  font-size: 3em;
+  color: rgba(255,255,255,0.7);
+}
+
+
+.akaya {
+  font-family: 'Akaya Telivigala', cursive;
+}
+.roboto {
+  font-family: 'Roboto', sans-serif;
+}
+.noto {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.lato{
+  font-family: 'Lato', sans-serif;
+}
+.stick {
+  font-family: 'Stick', sans-serif;
+}
+.roboto-condensed {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.pt-sans {
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+.source-code {
+  font-family: 'Source Code Pro', monospace;
+}
+.anton {
+  font-family: 'Anton', sans-serif;
+}
+.lobster {
+  font-family: 'Lobster', cursive;
+}
+.dancing {
+  font-family: 'Dancing Script', cursive;
+}
+.architects {
+  font-family: 'Architects Daughter', cursive;
+}
+.indie {
+  font-family: 'Indie Flower', cursive;
+}
