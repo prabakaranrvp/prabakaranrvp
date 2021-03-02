@@ -71,6 +71,7 @@ p {
 @media only screen and (max-width: 600px) {
   body {
     padding: 10vw;
+    height: 90vh;
   }
 
   h1 {
