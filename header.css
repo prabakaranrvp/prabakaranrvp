@@ -1,0 +1,24 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  padding: 20px;
+  text-align: right;
+  box-sizing: border-box;
+  visibility: hidden;
+}
+
+a {
+  color: #fff;
+  font-family: 'Source Code Pro', monospace;
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid transparent;
+}
+
+a:focus {
+  outline: none;
+  border-color: #fff;
+}

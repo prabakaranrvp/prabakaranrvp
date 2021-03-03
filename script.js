@@ -4,7 +4,7 @@ var usedClasses = [];
 var pClasses = unusedClasses;
 var pUsed = [];
 
-var intervalTime = 500;
+var intervalTime = 1200;
 
 (function () {
 
@@ -41,7 +41,6 @@ var intervalTime = 500;
       }, intervalTime);
 
     }, intervalTime / 2)
-
 
   }, 0);
 

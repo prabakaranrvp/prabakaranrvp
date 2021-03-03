@@ -105,6 +105,7 @@ body.even .odd-ip {
 body.even .even-ip {
   visibility: visible;
   opacity: 1;
+  height: 300px;
 }
 
 body.odd .even-ip {
@@ -116,7 +117,30 @@ body.odd .odd-ip {
   opacity: 1;
 }
 
-
 body.odd {
   background: #000;
+}
+
+body.unloaded .container {
+  visibility: hidden;
+  opacity: 0;
+
+}
+
+body .container {
+  visibility: visible;
+  opacity: 1;
+}
+
+.container a {
+  display: inline-block;
+  vertical-align: middle;
+  width: 24px;
+  margin: 12px;
+  padding: 12px;
+  transition: 0.2s linear;
+}
+
+.container a:hover {
+  transform: scale(1.25);
 }
