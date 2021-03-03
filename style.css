@@ -1,4 +1,3 @@
-
 body {
   background: rgba(0,0,0,0.8);
   color: rgba(255,255,255,0.95);
@@ -12,6 +11,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: 1s ease-in-out opacity;
 }
 
 h1 {
@@ -19,6 +19,11 @@ h1 {
   font-weight: 600;
   color: rgba(255,255,255,0.9);
   margin-top: 0;
+}
+
+h2 {
+  font-size: 4em;
+  margin-top: -10px;
 }
 
 p {
@@ -81,4 +86,37 @@ p {
   p {
     font-size: 1.75em;
   }
+}
+
+body.unloaded {
+  background: #000;
+}
+
+body section {
+  visibility: hidden;
+  opacity: 0;
+  transition: 1s ease-in-out opacity;
+}
+
+body.even .odd-ip {
+  display: none;
+}
+
+body.even .even-ip {
+  visibility: visible;
+  opacity: 1;
+}
+
+body.odd .even-ip {
+  display: none;
+}
+
+body.odd .odd-ip {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+body.odd {
+  background: #000;
 }
