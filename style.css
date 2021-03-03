@@ -79,12 +79,16 @@ p {
     height: 90vh;
   }
 
-  h1 {
+  h1, h2 {
     font-size: 3em;
   }
 
   p {
     font-size: 1.75em;
+  }
+
+  body.even .container {
+    margin-top: 40px;
   }
 }
 
