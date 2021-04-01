@@ -63,11 +63,15 @@ function timout(url, timerMs) {
 
 
 // Main Init function
-timout('https://api.ipify.org?format=json', 3000).then(function(data) {
-  var lastAddr = data.ip.split('.').pop();
-  document.getElementsByTagName('body')[0].className = (lastAddr % 2 == 0) ? 'even' : 'odd'
-  initFontAnime();
-}).catch(function() {
-  console.error(arguments);
+// timout('https://api.ipify.org?format=json', 3000).then(function(data) {
+//   var lastAddr = data.ip.split('.').pop();
+//   document.getElementsByTagName('body')[0].className = (lastAddr % 2 == 0) ? 'even' : 'odd'
+//   initFontAnime();
+// }).catch(function() {
+//   console.error(arguments);
+//   document.getElementsByTagName('body')[0].className = 'odd';
+// })
+
+window.onload = function(){
   document.getElementsByTagName('body')[0].className = 'odd';
-})
+};

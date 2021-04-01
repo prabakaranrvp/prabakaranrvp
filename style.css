@@ -90,6 +90,10 @@ p {
   body.even .container {
     margin-top: 40px;
   }
+
+  .new-layout h1, h2 {
+    font-size: 2em;
+  }
 }
 
 body.unloaded {
@@ -147,4 +151,24 @@ body .container {
 
 .container a:hover {
   transform: scale(1.25);
+}
+
+.new-layout body {
+    background: url(/images/light-bg.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center -90px;
+    box-sizing: border-box;
+    padding-left: 40%;
+    height: 100vh;
+    width: 100vw;
+    background-attachment: fixed;
+    color: #000000 !important;
+}
+
+.new-layout body * {
+  color: #000000 !important;
+}
+
+.new-layout img {
+  filter: invert();
 }
