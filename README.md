@@ -10,7 +10,6 @@
 
   🎯 &nbsp;&nbsp; Recently Interested in Web Accessibility <br/>
   🎉 &nbsp;&nbsp; Enjoy developing web using React<br/>
-  🔭 &nbsp;&nbsp; I’m currently learning on Angular
 
 ---
 
