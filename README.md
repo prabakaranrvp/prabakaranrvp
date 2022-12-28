@@ -9,7 +9,7 @@
 ---
 
   🎯 &nbsp;&nbsp; Recently Interested in Web Accessibility <br/>
-  🎉 &nbsp;&nbsp; Enjoy developing web using React<br/>
+  🤓 &nbsp;&nbsp; Probably one of very few developers using Ember JS<br/>
 
 ---
 
