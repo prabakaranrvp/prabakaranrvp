@@ -1,0 +1,17 @@
+name: Trigger Homework Summary
+
+on:
+  schedule:
+    # 4:30 PM IST is 11:00 AM UTC (GitHub uses UTC)
+    # Runs Monday through Friday
+    - cron: '0 11 * * 1-5'
+
+jobs:
+  hit-webhook:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Google Script Webhook
+        run: |
+          curl -L -X POST "${{ secrets.GOOGLE_SCRIPT_URL }}" \
+          -H "Content-Type: application/json" \
+          -d '{"triggered_by": "github-actions"}'
