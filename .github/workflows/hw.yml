@@ -12,6 +12,4 @@ jobs:
     steps:
       - name: Trigger Google Script Webhook
         run: |
-          curl -L -X POST "${{ secrets.GOOGLE_SCRIPT_URL }}" \
-          -H "Content-Type: application/json" \
-          -d '{"triggered_by": "github-actions"}'
+          curl -L "${{ secrets.GOOGLE_SCRIPT_URL }}"
