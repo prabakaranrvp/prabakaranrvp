@@ -5,6 +5,7 @@ on:
     # 4:30 PM IST is 11:00 AM UTC (GitHub uses UTC)
     # Runs Monday through Friday
     - cron: '0 11 * * 1-5'
+  workflow_dispatch:
 
 jobs:
   hit-webhook:
