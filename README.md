@@ -2,7 +2,7 @@
 
 ![Banner](https://raw.githubusercontent.com/prabakaranfresh/prabakaranfresh/master/memoji-banner.png)
 
- If you are reading this means you are looking me up! Thanks for that. Let me give you quick info on myself. I'm a Lead Frontend Engineer @ <a href="https://www.freshworks.com/" target="_blank">Freshworks</a>. I started my career as Hybrid Mobile App developer, then became an UX Enthusiast. A believer of **Atwood's law** - 
+ If you are reading this means you are looking me up! Thanks for that. Let me give you quick info on myself. I'm a Staff Frontend Engineer @ <a href="https://www.freshworks.com/" target="_blank">Freshworks</a>. I started my career as Hybrid Mobile App developer, then became an UX Enthusiast. A believer of **Atwood's law** - 
  
  &nbsp; &nbsp; &nbsp; **`"Any application that can be written in Javascript will eventually be written in Javascript"`**
 
